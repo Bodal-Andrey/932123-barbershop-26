@@ -615,3 +615,17 @@ border: 2px solid #000000;
 .inner-page .main-footer {
   margin-top: 45px;
 }
+
+.product-photos {
+  width: 460px;
+  /* Временно для сетки */
+  min-height: 677px;
+  background-color: red;
+}
+
+.product-info {
+  width: 390px;
+  /* Временно для сетки */
+  min-height: 677px;
+  background-color: red;
+}
