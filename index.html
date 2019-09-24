@@ -32,7 +32,7 @@
       </nav>
     </header>
     <main class="container">
-      <h1>Барбершоп &laquo;Бородинский&raquo;</h1>
+      <h1 class="visually-hidden">Барбершоп &laquo;Бородинский&raquo;</h1>
       <section class="features">
         <h2>Преимущества</h2>
         <ul class="features-list">
@@ -67,11 +67,13 @@
         </section>
         <section class="gallery">
           <h2>Фотогалерея</h2>
-          <figure class="gallery-content">
-            <a href="#"><img src="img/layer-21.jpg" alt="Интерьер" width="286" height="164"></a>
-          </figure>
-          <button class="button gallery-button gallery-button-back" type="button">Назад</button>
-          <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+          <div class="gallery-container">
+            <figure class="gallery-content">
+              <a href="#"><img src="img/layer-21.jpg" alt="Интерьер" width="286" height="164"></a>
+            </figure>
+            <button class="button gallery-button gallery-button-back" type="button">Назад</button>
+            <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+          </div>
         </section>
       </div>
       <div class="index-columns">
@@ -91,7 +93,7 @@
         <section class="appointment">
           <h2>Записаться</h2>
           <p class="appointment-info">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-          <form class="recording" action="https://echo.htmlacademy.ru" method="post">
+          <form class="appointment-form" action="https://echo.htmlacademy.ru" method="post">
           <p class="appointment-item">
             <label for="appointment-date">Дата</label>
             <input id="appointment-date" type="text" name="date" placeholder="08.10.2017">
@@ -153,9 +155,9 @@
     <div class="footer-social">
       <p>Давайте дружить!</p>
       <ul>
-        <li><a class="social-button" href="#">Вконтакте</a></li>
-        <li><a class="social-button" href="#">Фейсбук</a></li>
-        <li><a class="social-button" href="#">Инстаграм</a></li>
+        <li><a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
+        <li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+        <li><a class="social-button" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
       </ul>
     </div>
     <p class="footer-copyright">Разработано:</p>
