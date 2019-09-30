@@ -624,13 +624,11 @@ background-repeat:repeat;
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
-  background-color: green;
-  }
+}
 
 .main-header {
   margin-bottom: 75px;
   /* Временно для сетки */
-  background-color: yellow;
   min-height: 285px;
 }
 
@@ -648,7 +646,6 @@ background-repeat:repeat;
   width: 368px;
   height: 153px;
   /* Временно для сетки */
-  background-color: red;
   display: block;
 }
 
@@ -672,7 +669,6 @@ background-repeat:repeat;
   margin: 0;
   padding: 0;
   /* Временно для сетки */
-  background-color: red;
   min-height: 70px;
 }
 
@@ -694,14 +690,12 @@ background-repeat:repeat;
   margin: 0;
   padding: 0;
   /* Временно для сетки */
-  background-color: yellow;
   min-height: 150px;
 }
 
 .feature-item {
   width: 300px;
   /* Временно для сетки */
-  background-color: red;
   min-height: 150px;
 }
 
@@ -731,21 +725,18 @@ background-repeat:repeat;
   width: 300px;
   /* Временно для сетки */
   min-height: 315px;
-  background-color: red;
 }
 
 .contacts {
   width: 380px;
   /* Временно для сетки */
   min-height: 295px;
-  background-color: red;
 }
 
 .appointment {
   width: 300px;
   /* Временно для сетки */
   min-height: 320px;
-  background-color: red;
 }
 
 .main-footer {
@@ -753,7 +744,6 @@ background-repeat:repeat;
   margin-top: 65px;
   /* Временно для сетки */
   background: none;
-  background-color: yellow;
 }
 
 .main-footer .container {
@@ -766,14 +756,12 @@ background-repeat:repeat;
   margin-right: 80px;
   /* Временно для сетки */
   min-height: 100px;
-  background-color: red;
 }
 
 .footer-social {
   width: 145px;
   /* Временно для сетки */
   min-height: 100px;
-  background-color: red;
 }
 
 .footer-copyright {
@@ -782,7 +770,6 @@ background-repeat:repeat;
   margin-left: auto;
   /* Временно для сетки */
   min-height: 100px;
-  background-color: red;
 }
 
 .inner-page .main-header {
@@ -820,7 +807,6 @@ background-repeat:repeat;
   padding: 0;
   /* Временно для сетки */
   min-height: 42px;
-  background-color: red;
 }
 
 .breadcrumbs {
@@ -829,21 +815,18 @@ background-repeat:repeat;
   margin-bottom: 50px;
   /* Временно для сетки */
   min-height: 24px;
-  background-color: red;
 }
 
 .filters {
   width: 180px;
   /* Временно для сетки */
   min-height: 687px;
-  background-color: red;
 }
 
 .catalog {
   width: 700px;
   /* Временно для сетки */
   min-height: 687px;
-  background-color: red;
 }
 
 .catalog-columns {
@@ -857,7 +840,6 @@ background-repeat:repeat;
   margin-right: 20px;
   /* Временно для сетки */
   min-height: 285px;
-  background-color: yellow;
 }
 
 .catalog-item:nth-child(3n) {
@@ -877,7 +859,6 @@ background-repeat:repeat;
   padding: 0;
   /* Временно для сетки */
   min-height: 47px;
-  background-color: yellow;
 }
 
 .inner-page .main-footer {
@@ -888,14 +869,12 @@ background-repeat:repeat;
   width: 460px;
   /* Временно для сетки */
   min-height: 677px;
-  background-color: red;
 }
 
 .product-info {
   width: 390px;
   /* Временно для сетки */
   min-height: 677px;
-  background-color: red;
 }
 
 .modal-login,
