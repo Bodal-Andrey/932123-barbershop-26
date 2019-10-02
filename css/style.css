@@ -314,7 +314,7 @@ background-repeat:repeat;
   border: 2px solid #000000;
 }
 
-.appointment-button {
+.appointment .button {
   display: block;
   width: 100%;
   margin-top: 10px;
