@@ -114,36 +114,6 @@
         </form>
       </section>
     </div>
-    <section class="modal modal-login">
-      <h2>Личный кабинет</h2>
-      <p>Введите, пожалуйста, свой логин и пароль</p>
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <p class="login-form">
-          <label for="user-login">Логин</label>
-          <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="Логин">
-        </p>
-        <p class="login-form">
-          <label for="user-password">Пароль</label>
-          <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
-        </p>
-        <p class="login-checkbox">
-          <input id="login-password-info" type="checkbox" name="remember">
-          <label for="login-password-info">Запомните меня</label>
-        </p>
-        <p class="restore">
-          <a href="#">Я забыл пароль!</a>
-        </p>
-        <button type="submit">Войти</button>
-      </form>
-      <button class="modal-close" type="button">Закрыть</button>
-    </section>
-    <section class="big-map">
-      <h2>Как проехать</h2>
-      <p>
-        <img src="img/map.jpg" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, г. Санкт-Петербург">
-      </p>
-      <button type="button" aria-label="Закрыть"></button>
-    </section>
   </main>
   <footer class="main-footer">
     <div class="container">
@@ -181,9 +151,35 @@
       </div>
     </div>
 </footer>
-<section>
-  <h2>Как до нас добраться</h2>
-  <button type="button">Закрыть</button>
+<section class="modal modal-login">
+  <h2>Личный кабинет</h2>
+  <p class="modal-description">Введите, пожалуйста, свой логин и пароль</p>
+  <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
+    <p>
+      <label class="visually-hidden" for="user-login">Логин</label>
+      <input class="login-icon-user" id="user-login" type="text" name="login" placeholder="email@example.com">
+    </p>
+    <p>
+      <label class="visually-hidden" for="user-password">Пароль</label>
+      <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="********">
+    </p>
+    <p class="login-help">
+      <input class="visually-hidden" id="login-password-info" type="checkbox" name="remember">
+      <label class="login-checkbox" for="login-password-info"><span class="checkbox-indicator"></span>Запомните меня</label>
+      <a class="restore" href="#">Я забыл пароль!</a>
+    </p>
+    <button class="button" type="submit">Войти</button>
+  </form>
+  <button class="modal-close" type="button">
+    <span class="visually-hidden">Закрыть</span>
+  </button>
+</section>
+<section class="big-map">
+  <h2>Как проехать</h2>
+  <p>
+    <img src="img/map.jpg" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, г. Санкт-Петербург">
+  </p>
+  <button type="button" aria-label="Закрыть"></button>
 </section>
 </body>
 </html>
