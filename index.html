@@ -164,8 +164,10 @@
       <input class="login-icon-password" id="user-password" type="password" name="password" placeholder="********">
     </p>
     <p class="login-help">
-      <input class="visually-hidden" id="login-password-info" type="checkbox" name="remember">
-      <label class="login-checkbox" for="login-password-info"><span class="checkbox-indicator"></span>Запомните меня</label>
+      <label class="login-checkbox">
+        <input class="visually-hidden" type="checkbox" name="remember">
+        <span class="checkbox-indicator"></span>Запомните меня
+      </label>
       <a class="restore" href="#">Я забыл пароль!</a>
     </p>
     <button class="button" type="submit">Войти</button>
@@ -174,12 +176,14 @@
     <span class="visually-hidden">Закрыть</span>
   </button>
 </section>
-<section class="big-map">
-  <h2>Как проехать</h2>
+<section class="modal modal-map">
+  <h2 class="visually-hidden">Как проехать</h2>
   <p>
-    <img src="img/map.jpg" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, г. Санкт-Петербург">
+    <img src="img/map.jpg" width="766" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, г. Санкт-Петербург">
   </p>
-  <button type="button" aria-label="Закрыть"></button>
+  <button class="modal-close" type="button">
+    <span class="visually-hidden">Закрыть</span>
+  </button>
 </section>
 </body>
 </html>
