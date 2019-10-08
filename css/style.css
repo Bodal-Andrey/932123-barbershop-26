@@ -995,7 +995,7 @@ background-repeat:repeat;
   top: 120px;
   left: 50%;
 
-  display: none;
+  /* display: none; */
 
   width: 300px;
   margin-left: -230px;
